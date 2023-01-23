@@ -1,3 +1,6 @@
-cd C:\Users\Hi-tech\Desktop\Все все\table
-git commit -m "новые данные" 
+@echo off
+cd %~dp0
+git add *
+git commit -m "nev data" 
 git push -u origin main
+pause
